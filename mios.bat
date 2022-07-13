@@ -1,3 +1,4 @@
+@echo off
 :Mainmenu
 echo    Assistent MiOS
 echo =====================
