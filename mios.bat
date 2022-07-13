@@ -5,7 +5,8 @@ echo 1. Open Youtube
 echo 2. Open Facebook
 echo 3. Open Instagram
 echo 4. Open Twitter
-choice /c 1234
+echo 5. Mios Search
+choice /c 12345
 if %errorlevel% == 1 goto Youtube
 if %errorlevel% == 2 goto Facebook
 if %errorlevel% == 3 goto Instagram
