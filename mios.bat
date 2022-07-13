@@ -40,4 +40,4 @@ choice /c 12
 if %errorlevel% == 1 goto Fine
 :Fine
 echo What you want me to do for you
-gotol Mainmenu
+goto Mainmenu
