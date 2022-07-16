@@ -7,12 +7,14 @@ echo 2. Open Facebook
 echo 3. Open Instagram
 echo 4. Open Twitter
 echo 5. Support
-choice /c 1234
+echo 6. Quit Mios
+choice /c 123456
 if %errorlevel% == 1 goto Youtube
 if %errorlevel% == 2 goto Facebook
 if %errorlevel% == 3 goto Instagram
 if %errorlevel% == 4 goto Twitter
 if %errorlevel% == 5 goto Support
+if %errorlevel% == 6 goto Quit
 cls
 :Youtube
 start www.youtube.com
@@ -45,3 +47,5 @@ if %errorlevel% == 1 goto Openproblem
 cls
 echo check you version of windows
 goto Mainmenu
+:Quit
+exit
